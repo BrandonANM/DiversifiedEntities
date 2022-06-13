@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Cold Inbound</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/anm.brandon@gmail.com" method="POST">
+       <!-- <input type="hidden" name="_next" value="GB.html"> -->
+        <br>
+        <h1>Please fill out the form Below.</h1>
+        <br>
+        <br>
+        <div >
+            <label for="Name">Name</label>
+            <input id="Name" type="text" name="Name" placeholder="First Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="LastName">Last Name</label>
+            <input id="LastName" type="text" name="LastName" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="PU">Delivery/Load #</label>
+            <input id="PU" type="text" name="PU" placeholder="Delivery/Load #" required>
+        </div>
+        <br>
+        <div>
+            <label for="Carrier">Carrier</label>
+        <input id="Carrier" type="text" name="Carrier" Placeholder="Carrier Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="Trailer">Trailer #</label>
+        <input id="Trailer" type="text" name="Trailer" placeholder="Trailer Number" required>
+        </div>
+        <br>
+        <div>
+            <label for="Phone">Phone #</label>
+            <input type="tel" id="phone" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(000)000-0000" required>
+        </div>
+        <br>
+        <div>
+            <label for="license">License #</label>
+            <input id="license" type="text" name="License" placeholder="License Number" required>
+        </div>
+        <br>
+        <div>
+            <label>Special Unloading Preferences?</label>
+            <br>
+            <label for="Choice">Yes</label>
+            <input id="Choice" type="radio" name="Choice" >
+
+            <label for="Choice">No</label>
+            <input id="Choice" type="radio" name="Choice" >
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <br>
+    </form>
+</body>
+</html>

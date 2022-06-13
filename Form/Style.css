@@ -1,0 +1,30 @@
+*{
+    
+    align-items: center;
+    position: relative;
+    display: flexbox;
+}
+
+body{
+    flex-direction: column;
+}
+
+form{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    border: skyblue double;
+    border-width: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+a{
+    
+    margin: auto;
+    padding: auto;
+}
+
+img{
+    border: double 1px black;
+    margin-top: 5px;
+}
