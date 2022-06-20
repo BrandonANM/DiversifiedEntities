@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+     <!-- Favicon -->
+     <link href="img/favicon.ico" rel="icon">
+
+     <!-- Google Web Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+ 
+     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+ 
+     <!-- Libraries Stylesheet -->
+     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+ 
+     <!-- Customized Bootstrap Stylesheet -->
+     <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-offset="51">
+     <!-- Contact Start -->
+     <div class="container-fluid py-5" id="contact">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Check In For Outbound</h6>
+                <h1 class="font-secondary display-4">Register Below</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <!--Radio Button Start-->
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <label class="text-center" for="Dry/Cold">Dry Load</label>
+                                    <input type="Radio" name="Dry/Cold" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="First Name" required="required" data-validation-required-message="Please enter your  First Name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <label class="text-center" for="Dry/Cold">Refrigerated Load</label>
+                                    <input type="Radio" name="Dry/Cold"    class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Last Name" required="required" data-validation-required-message="Please enter your Last Name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>       
+                            <!--Radio Button End-->
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="First Name" required="required" data-validation-required-message="Please enter your  First Name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Last Name" required="required" data-validation-required-message="Please enter your Last Name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Reference/PO #" required="required" data-validation-required-message="Please enter your Reference #" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Trailer #" required="required" data-validation-required-message="Please enter your Trailer #" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Carrier Name" required="required" data-validation-required-message="Please enter your Carrier Name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="000-000-0000" required="required" data-validation-required-message="Please enter your Phone #" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton" formaction="ThankYou.html">Submit</button>
+                            </div>
+                            <div class="text-center">
+                                <a class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton" href="index.html">Return</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+    
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+</html>
